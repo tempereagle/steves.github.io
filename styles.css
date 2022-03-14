@@ -5,7 +5,10 @@
   box-sizing: border-box;
   padding: 0;
 }
-
+html,
+body {
+  width: 100%;
+}
 body {
   line-height: 1.6;
   font-family: "Montserrat", sans-serif;
@@ -194,7 +197,6 @@ header h2 {
 .menu-col img {
   width: 100%;
   height: auto;
-  border: 2px solid black;
 }
 
 .text-container {
