@@ -5,10 +5,7 @@
   box-sizing: border-box;
   padding: 0;
 }
-html,
-body {
-  width: 100%;
-}
+
 body {
   line-height: 1.6;
   font-family: "Montserrat", sans-serif;
@@ -110,14 +107,20 @@ nav {
 
 /* Billboard */
 header {
-  background-image: url(/images/jonathan-borba-8l8Yl2ruUsg-unsplash.jpg);
+  /* background-image: url(/images/jonathan-borba-8l8Yl2ruUsg-unsplash.jpg); */
+
+  background: url(/images/jonathan-borba-8l8Yl2ruUsg-unsplash.jpg) no-repeat
+    center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   /* background-attachment: fixed; */
   height: 60vh;
   background-size: cover;
   /* background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover; */
-  max-width: 100%;
   /* background-position: center right; */
   display: flex;
   justify-content: center;
