@@ -192,7 +192,10 @@ header h2 {
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
-  height: 100%;
+}
+
+.menu-col img {
+  height: auto;
 }
 
 .text-container {
