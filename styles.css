@@ -114,11 +114,11 @@ header {
   /* background-attachment: fixed; */
   height: 60vh;
   background-size: cover;
+  /* background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
-  width: 100%;
-
-  background-position: center right;
+  -o-background-size: cover; */
+  max-width: 100%;
+  /* background-position: center right; */
   display: flex;
   justify-content: center;
   align-items: center;
