@@ -108,7 +108,7 @@ nav {
 header {
   background-image: url(/images/jonathan-borba-8l8Yl2ruUsg-unsplash.jpg);
   background-attachment: fixed;
-  max-width: 100%;
+  width: 100vw;
   height: 60vh;
   background-size: cover;
   background-position: center right;
@@ -120,7 +120,7 @@ header {
   color: white;
 }
 header h2 {
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
 }
 
@@ -161,7 +161,7 @@ header h2 {
 .menu-header {
   background-image: url(/images/ilya-mashkov-mkVa2hLJgnI-unsplash\ HR.jpg);
   background-attachment: fixed;
-  max-width: 100%;
+  width: 100vw;
   height: 50vh;
   background-size: cover;
   background-position: center right;
@@ -180,7 +180,7 @@ header h2 {
 }
 
 .menu-col {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
@@ -198,7 +198,7 @@ header h2 {
 #about {
   background-image: url(/images/patrick-tomasso-GXXYkSwndP4-unsplash.jpg);
   background-attachment: fixed;
-  max-width: 100%;
+  width: 100vw;
   min-height: 60vh;
   background-size: cover;
   background-position: center right;
