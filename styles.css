@@ -105,6 +105,10 @@ nav {
   border-top: 4px solid yellow;
 }
 
+#home {
+  padding-top: 0.5rem;
+}
+
 /* Billboard */
 header {
   background-image: url(/images/jonathan-borba-8l8Yl2ruUsg-unsplash.jpg);
